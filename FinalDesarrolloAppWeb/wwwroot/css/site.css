@@ -1,0 +1,79 @@
+/* Estilos para el encabezado */
+h1, h3, h4 {
+    color: #333;
+}
+
+/* Estilos para los formularios y detalles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.control-label {
+    font-weight: bold;
+}
+
+/* Estilos para las tablas */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    .table th, .table td {
+        padding: 8px;
+        border: 1px solid #ccc;
+        text-align: left;
+    }
+
+    .table th {
+        background-color: #f0f0f0;
+    }
+
+    .table td {
+        vertical-align: top;
+    }
+
+/* Estilos para los botones */
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333;
+        border-color: #bd2130;
+    }
+
+/* Estilos para los mensajes de error */
+.field-validation-error {
+    color: #dc3545;
+}
+
+.text-danger {
+    color: #dc3545;
+}
